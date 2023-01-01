@@ -1,0 +1,80 @@
+[debug] [2022-11-10T20:53:57.467Z] ----------------------------------------------------------------------
+[debug] [2022-11-10T20:53:57.471Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\areej\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-11-10T20:53:57.472Z] CLI Version:   11.16.0
+[debug] [2022-11-10T20:53:57.473Z] Platform:      win32
+[debug] [2022-11-10T20:53:57.473Z] Node Version:  v16.16.0
+[debug] [2022-11-10T20:53:57.475Z] Time:          Thu Nov 10 2022 22:53:57 GMT+0200 (Eastern European Standard Time)
+[debug] [2022-11-10T20:53:57.476Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-10T20:53:57.487Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-11-10T20:53:57.547Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-10T20:53:57.548Z] > authorizing via signed-in user (mairygris1234@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\areej\route-app
+
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2022-11-10T20:53:58.764Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-10T20:54:12.613Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-11-10T20:54:13.738Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 403
+[debug] [2022-11-10T20:54:13.738Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2022-11-10T20:54:13.739Z] Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+[debug] [2022-11-10T20:54:14.304Z] FirebaseError: Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+    at RetryOperation._fn (C:\Users\areej\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:260:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2022-11-10T20:54:46.263Z] ----------------------------------------------------------------------
+[debug] [2022-11-10T20:54:46.267Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\areej\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-11-10T20:54:46.268Z] CLI Version:   11.16.0
+[debug] [2022-11-10T20:54:46.268Z] Platform:      win32
+[debug] [2022-11-10T20:54:46.269Z] Node Version:  v16.16.0
+[debug] [2022-11-10T20:54:46.271Z] Time:          Thu Nov 10 2022 22:54:46 GMT+0200 (Eastern European Standard Time)
+[debug] [2022-11-10T20:54:46.271Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-10T20:54:46.280Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-11-10T20:54:46.331Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-10T20:54:46.332Z] > authorizing via signed-in user (mairygris1234@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\areej\route-app
+
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2022-11-10T20:54:46.547Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-10T20:55:18.718Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/availableProjects pageSize=100
+[debug] [2022-11-10T20:55:21.062Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/availableProjects 403
+[debug] [2022-11-10T20:55:21.063Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/availableProjects [omitted]
+[debug] [2022-11-10T20:55:21.063Z] Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+[debug] [2022-11-10T20:55:23.929Z] FirebaseError: Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+    at RetryOperation._fn (C:\Users\areej\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:260:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to list available Google Cloud Platform projects. See firebase-debug.log for more info.
